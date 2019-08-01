@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-        android:orientation="vertical"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dp"
@@ -21,17 +21,17 @@
             app:layout_constraintEnd_toEndOf="parent"/>
 
     <!--<com.example.customviews.CustomTextView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:id="@+id/customTextView"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--app:text="That's my quote block That's my quote block That's my quote block That's my quote block That's my quote block That's my quote block That's my quote block "-->
-            <!--app:leftBarColor="#ff0000"-->
-            <!--app:leftBarWidth="10dp"-->
-            <!--app:spaceBetween="15dp"-->
-            <!--app:textSize="20sp"-->
-            <!--app:layout_constraintTop_toTopOf="parent"-->
-            <!--app:layout_constraintStart_toStartOf="parent"-->
-            <!--app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:id="@+id/customTextView"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:text="That's my quote block That's my quote block That's my quote block That's my quote block That's my quote block That's my quote block That's my quote block "-->
+    <!--app:leftBarColor="#ff0000"-->
+    <!--app:leftBarWidth="10dp"-->
+    <!--app:spaceBetween="15dp"-->
+    <!--app:textSize="20sp"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"/>-->
 
 
     <com.example.customviews.CustomQuoteTextView
@@ -40,7 +40,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            app:leftBarColor="#ff0000"
+            app:shapeType="rectangle"
+            app:circleRadius="4dp"
+            app:leftBarColor="#000000"
             app:leftBarWidth="5dp"
             app:spaceBetween="12dp"
     />
