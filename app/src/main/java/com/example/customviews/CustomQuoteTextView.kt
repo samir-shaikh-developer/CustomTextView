@@ -12,6 +12,8 @@ class CustomQuoteTextView(context: Context, attrs: AttributeSet?) : TextView(con
     private val leftBarWidth: Float
     private val spaceBetween: Float
     private val typedArray = context.theme.obtainStyledAttributes(attrs, R.styleable.QuoteCustomView, 0, 0)
+    private val p = Paint()
+
 
     init {
         try {
@@ -24,7 +26,6 @@ class CustomQuoteTextView(context: Context, attrs: AttributeSet?) : TextView(con
     }
 
     override fun onDraw(canvas: Canvas?) {
-        val p = Paint()
         p.color = leftBarColor
         this.setPadding(spaceBetween.toInt(), this.paddingTop, this.paddingRight, this.paddingBottom)
         canvas?.drawRect(0.0f, 0.0f, leftBarWidth, this.height.toFloat() / this.lineCount, p)
