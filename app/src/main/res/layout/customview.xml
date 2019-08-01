@@ -1,0 +1,20 @@
+<merge
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+            android:id="@+id/left_color_bar"
+            android:padding="5dp"
+            android:background="#ff0000"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+
+    <TextView
+            android:paddingLeft="5dp"
+            android:id="@+id/text"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</merge>
