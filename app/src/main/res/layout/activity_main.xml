@@ -35,7 +35,8 @@
 
 
     <com.example.customviews.CustomQuoteTextView
-            android:text="Quote"
+            android:includeFontPadding="false"
+            android:text="Quote is done Quote is done Quote is done Quote is done Quote is done Quote is done Quote is done Quote is done "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
