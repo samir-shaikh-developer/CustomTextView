@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CustomView">
+    <!--<declare-styleable name="CustomView">-->
+        <!--<attr name="leftBarColor" format="color"/>-->
+        <!--<attr name="textColor" format="color"/>-->
+        <!--<attr name="leftBarWidth" format="dimension" />-->
+        <!--<attr name="spaceBetween" format="dimension"/>-->
+        <!--<attr name="text" format="string"/>-->
+        <!--<attr name="textSize" format="dimension"/>-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="QuoteCustomView">
         <attr name="leftBarColor" format="color"/>
-        <attr name="textColor" format="color"/>
         <attr name="leftBarWidth" format="dimension" />
         <attr name="spaceBetween" format="dimension"/>
-        <attr name="text" format="string"/>
-        <attr name="textSize" format="dimension"/>
     </declare-styleable>
+
 </resources>
